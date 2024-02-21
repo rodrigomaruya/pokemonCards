@@ -1,0 +1,98 @@
+.mainCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    
+
+}
+
+.card{
+    position: relative;
+    width: 100%;
+    min-width: 360px;
+    max-width: 350px;
+    
+}
+.imageCard{
+    background-image: url('../../image/fundodourado.jpg');
+    background-position:  55% 20%;
+    background-repeat: no-repeat;
+    background-size: 85%;
+    border-radius: 5%;
+    width: 100%;
+    
+   
+}
+.imagePokemon{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    width: 40%;
+    
+    transform: translate(-2%,40%);
+}
+.image{
+    position: absolute;
+    width: 70%;
+}
+.infoCard{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    color: #ddd;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 58%;
+    left: 5%;
+    color: #ddd;
+    font-weight: 800;
+    padding: 15px;
+}
+.infoCard h1{
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: #ebebeb;
+}
+.infoCard span{
+    font-size: .8rem;
+    font-weight: 700;
+}
+.contentInput{
+    position: absolute;
+    bottom: 7%;
+    left: 9%;
+    width: 83%;
+}
+.input{
+    height: 35px;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px;
+    background: #ddd;
+    border: none;
+    outline: none;
+}
+.contentButton{
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   gap: 50px;
+}
+.contentButton button{
+    width: 100px;
+    padding: 10px;
+    background-color: rgb(241, 217, 4);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
